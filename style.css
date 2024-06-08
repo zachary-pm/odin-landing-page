@@ -11,26 +11,27 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 16px 100px 0px 100px;
+    margin: 16px 200px 0px 200px;
     display: flex;
     gap: 16px;
 }
 
 a {
     text-decoration: none;
-    color: antiquewhite;
+    color: #f9faf8;
 }
 
 button {
     color: antiquewhite;
-    background-color: rgb(0, 158, 250);
+    background-color: #3882f6;
     border-radius: 8px;
     padding: 8px 16px;
 }
 
 .header-logo {
+    font-size: 24px;
     font-weight: 700;
-    color: white;
+    color: #f9faf8;
 }
 
 .rightlinks {
@@ -39,47 +40,60 @@ button {
 
 .topbox {
     font-family: Arial, Helvetica, sans-serif;
-    color: antiquewhite;
-    background-color: rgba(7, 80, 122, 0.774);
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
     
     display: flex;
     flex-direction: column;
 }
 
 .topbox-container {
-    margin: 100px;
+    margin: 100px 200px;
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
 .topbox-content {
+    height: 250px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: 1;
     gap: 8px;
-    flex-basis: 50%;
 }
 
 .topbox-content h1 {
+    font-size: 48px;
     font-weight: 700;
-    color: white;
+    color: #f9faf8;
 }
 
 .img-placeholder {
-    background-color: gray;
-    flex-basis: 50%;
+    height: 250px;
+    width: 500px;
+    background-color: #e5e7eb;
+    color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .cardbox {
-    color: rgba(0, 0, 0, 0.74);
+    color: #1f2937;
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+.cardbox h2 {
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .cardbox-content {
@@ -103,22 +117,23 @@ button {
 }
 
 .square {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 5px solid blue;
     border-radius: 8px;
 }
 
 .quotebox {
-    background-color: lightcyan;
-    padding: 100px 150px;
+    background-color: #e5e7eb;
+    padding: 100px 250px;
     display: flex;
     flex-direction: column;
 }
 
 .quote {
-    font-size: 2rem;
+    font-size: 32px;
     font-style: italic;
+    color: #1f2937
     flex: 1;
 }
 
@@ -137,10 +152,10 @@ button {
 
 .bottombox-content {
     color: aliceblue;
-    background-color: blue;
+    background-color: #3882f6;
     border-radius: 8px;
     padding: 40px 60px;
-    margin: 100px;
+    margin: 100px 200px;
     display: flex;
     justify-content: space-between;
 }
