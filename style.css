@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px 100px 0px 100px;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+button {
+    color: antiquewhite;
+    background-color: rgb(0, 158, 250);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.header-logo {
+    font-weight: 700;
+    color: white;
+}
+
+.rightlinks {
+    margin-left: auto;
+}
+
+.topbox {
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-color: rgba(7, 80, 122, 0.774);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.topbox-container {
+    margin: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.topbox-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-basis: 50%;
+}
+
+.topbox-content h1 {
+    font-weight: 700;
+    color: white;
+}
+
+.img-placeholder {
+    background-color: gray;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardbox {
+    color: rgba(0, 0, 0, 0.74);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardbox-content {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    flex-basis: 100px;
+}
+
+.card p {
+    display: flex;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    border-radius: 8px;
+}
+
+.quotebox {
+    background-color: lightcyan;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+    flex: 1;
+}
+
+.attribution {
+    font-weight: 700;
+    flex: 1;
+    margin-left: auto;
+}
+
+.bottombox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.bottombox-content {
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 40px 60px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    color: aliceblue;
+    background-color: rgba(7, 80, 122, 0.774);
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
